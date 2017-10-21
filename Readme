@@ -1,0 +1,9 @@
+## A movie website with Flask + Mysql
+
+step 1: design the model, just try to list what the data you need. And how to set the model.
+
+step 2: design the home and admin pages.
+
+step 3: write the code and logic for the home and admin.
+
+step 5: release.
