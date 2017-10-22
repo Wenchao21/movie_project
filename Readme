@@ -7,3 +7,20 @@ step 2: design the home and admin pages.
 step 3: write the code and logic for the home and admin.
 
 step 5: release.
+
+
+开发环境： python3.5.1 + atom编辑器 + mysql + flask + macOS
+
+生产环境： Ubuntu17.10 + mysql
+
+第一部分： 项目分析， 搭建目录， 模型设计
+
+第二部分：前台页面搭建
+
+第三部分：后台管理页面搭建
+
+第四部分：后台管理业务处理实现
+
+第五部分：角色控制
+
+第六部分：会员模块实现
