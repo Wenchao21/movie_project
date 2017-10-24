@@ -1,4 +1,4 @@
-from . import admin
+from . import admin    # 导入蓝图 admin
 
 @admin.route("/")
 def index():

@@ -8,6 +8,7 @@ step 3: write the code and logic for the home and admin.
 
 step 5: release.
 
+sshkey test
 
 开发环境： python3.5.1 + atom编辑器 + mysql + flask + macOS
 

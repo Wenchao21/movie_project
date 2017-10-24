@@ -1,4 +1,4 @@
-from . import home
+from . import home   #导入蓝图 home
 
 @home.route("/")
 def index():
