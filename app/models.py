@@ -1,3 +1,12 @@
+#coding=utf-8
+
+'''
+这个文件，是模型定义的文件，其中需要定义的很多模型，都在这里定义
+
+数据库中的表，跟文件中的class相对应。
+
+'''
+
 from flask_sqlalchemy import SQLAlchemy
 from flask import Flask
 from datetime import datetime
@@ -12,6 +21,9 @@ db = SQLAlchemy(app)
 
 class User(db.Model):
     __tablename__ = "user"
+    '''
+    用户模型，包括名字
+    '''
     id = db.Column(db.Integer, primary_key = True)
     name = db.Column(db.String(100), unique = True)
     pwd = db.Column(db.String(100))
@@ -24,6 +36,9 @@ class User(db.Model):
     userlogs = db.relationship('Userlog', backref = 'user')
 
     def __repr__(self):
+        '''
+        repr 在创建模型对象的时候，能够清楚的看到返回的值
+        '''
         return "<User %r>"% self.name
 
 class UserLog(db.Model):
