@@ -5,7 +5,7 @@ import pymysql
 
 # 这个app,仅仅为链接数据库使用的,不是app里面那个app
 app = Flask(__name__)
-app.config["SQLALCHEMY_DATABASE_URI"] = "mysql+pymysql://root:fixissue110@127.0.0.1/movie"
+app.config["SQLALCHEMY_DATABASE_URI"] = "mysql+pymysql://root:password110@127.0.0.1/movie"
 app.config["SQLALCHEMY_TRACK_MODIFICATIONS"] = True
 
 db = SQLAlchemy(app)
